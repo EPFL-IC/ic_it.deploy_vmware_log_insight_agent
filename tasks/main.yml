@@ -5,7 +5,7 @@
     src: vmware-log-insight-agent_8.10.2-21113573_all_128.178.131.4.deb
     dest: /tmp/vmware-log-insight-agent_8.10.2-21113573_all_128.178.131.4.deb
 
-- name: install the vmware-log-insight-agent_8.6.2-19075480_all_128.178.131.4 package
+- name: install the vmware-log-insight-agent package
   apt:
     deb: /tmp/vmware-log-insight-agent_8.10.2-21113573_all_128.178.131.4.deb
     state: present
